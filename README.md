@@ -60,7 +60,7 @@ MCP Tool Response
 
 ```bash
 git clone https://github.com/satansunny47/Nexla-mcp-assignment.git
-cd nexla-mcp-assignment
+cd Nexla-mcp-assignment
 ```
 
 ---
