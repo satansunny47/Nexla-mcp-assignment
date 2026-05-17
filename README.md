@@ -21,7 +21,7 @@ ChromaDB Vector Store
     ↓
 Semantic Retrieval + Reranking
     ↓
-Ollama (Llama3)
+Ollama (Mistral)
     ↓
 MCP Tool Response
 ```
@@ -37,7 +37,7 @@ MCP Tool Response
 | PDF Parsing | PyMuPDF |
 | Embeddings | sentence-transformers |
 | Vector Database | ChromaDB |
-| Local LLM | Ollama + Llama3 |
+| Local LLM | Ollama + Mistral |
 | Retrieval Enhancement | CrossEncoder reranking |
 
 ---
