@@ -95,7 +95,9 @@ pip install -r requirements.txt
 
 ## 4. Install Ollama
 
-https://ollama.com
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+```
 
 Pull model:
 
@@ -106,22 +108,12 @@ ollama pull mistral
 Start Ollama:
 
 ```bash
-ollama serve
+export OLLAMA_HOST=127.0.0.1:11435 && ollama serve 
 ```
 
 ---
 
-## 5. Add PDFs
-
-Place PDF files inside:
-
-```text
-data/pdfs/
-```
-
----
-
-## 6. Ingest Documents
+## 5. Ingest Documents
 
 ```bash
 python -m app.ingest
@@ -129,7 +121,7 @@ python -m app.ingest
 
 ---
 
-## 7. Start MCP Server
+## 6. Start MCP Server
 
 ```bash
 python -m app.server
