@@ -59,7 +59,7 @@ MCP Tool Response
 ## 1. Clone Repository
 
 ```bash
-git clone <repo_url>
+git clone https://github.com/satansunny47/Nexla-mcp-assignment.git
 cd nexla-mcp-assignment
 ```
 
