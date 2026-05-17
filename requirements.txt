@@ -1,0 +1,6 @@
+fastmcp
+chromadb
+pymupdf
+sentence-transformers
+ollama
+numpy
